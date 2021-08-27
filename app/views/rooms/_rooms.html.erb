@@ -1,4 +1,12 @@
 <div class="mb-3">
+    <% flash.each do |type, msg| %>
+        <% if type != "danger" %>
+            <% type = "success" %>
+        <% end %>
+        <div class="alert alert-<%= type %>">
+            <%= msg %>
+        </div>
+    <% end %>
     <%= link_to new_room_path, class: 'btn btn-primary' do %>
         Create a room
     <% end %>
