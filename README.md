@@ -2,6 +2,8 @@
 
 This is a chat app that uses a Ruby on Rails back end, and WebSockets with ActionCable. It has some light login validations powered by Devise.
 
+* Hosted At
+  * https://ruby-chat-room.herokuapp.com/
 * Ruby version
   * 2.6.2
 
