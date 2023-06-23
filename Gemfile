@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.0'
+ruby '3.1.4'
+
+gem 'psych', '< 4'
 
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
