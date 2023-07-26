@@ -9,10 +9,10 @@ This is a chat app that uses a Ruby on Rails back end, and WebSockets with Actio
   * https://www.sitepoint.com/create-a-chat-app-with-rails-5-actioncable-and-devise/
   
 * Ruby version
-  * 2.6.2
+  * 3.1.4
 
 * Rails Version
-  * 5.2.3
+  * 6
 
 * Configuration
   * Devise for form creation
